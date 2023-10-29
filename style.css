@@ -1,0 +1,18 @@
+html, body{
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-el{
+
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+#input-btn{
+    background-color: greenyellow;
+    border-color: greenyellow;
+    margin: 1.5vh 1.5vw;
+    text-transform: uppercase;
+}
