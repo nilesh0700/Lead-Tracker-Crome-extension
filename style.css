@@ -6,7 +6,7 @@ html, body{
 
 #input-el{
 
-    border: 2px solid greenyellow;
+    border: 1px solid greenyellow;
     border-radius: 5px;
 }
 
@@ -15,4 +15,24 @@ html, body{
     border-color: greenyellow;
     margin: 1.5vh 1.5vw;
     text-transform: uppercase;
+    border: 1px solid green;
+}
+#delete-btn{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+ul{
+    padding-left: 0px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a{
+    color: rgb(35, 221, 35);
+    text-decoration: none;
 }
