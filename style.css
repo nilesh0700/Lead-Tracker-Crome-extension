@@ -3,24 +3,39 @@ html, body{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+button{
+    background-color: rgb(44, 144, 232);
+    margin: 1px 1px;
+    text-transform: uppercase;
+    border: 1px solid rgb(5, 14, 185);
+    color: white;
+}
 
 #input-el{
 
-    border: 1px solid greenyellow;
-    border-radius: 5px;
+    border: 1px solid rgb(52, 128, 227);
+    width: 170px;
+    
+  
+}
+#input-el:focus{
+
+    /* border: 1.5px; */
+    border-color: rgb(52,128,227);
+    color: rgb(50, 198,218);
+    outline: none;
+    box-shadow:rgb(5, 14, 185)
 }
 
 #input-btn{
-    background-color: greenyellow;
-    border-color: greenyellow;
-    margin: 1.5vh 1.5vw;
+  
     text-transform: uppercase;
-    border: 1px solid green;
+
 }
 #delete-btn{
     background-color: white;
-    color: green;
-    border: 1px solid green;
+    color: rgb(229, 80, 80);
+    border: 1px solid rgb(233, 64, 76);
 }
 ul{
     padding-left: 0px;
@@ -33,6 +48,6 @@ li{
 }
 
 li a{
-    color: rgb(35, 221, 35);
+    color: rgb(50, 198, 218);
     text-decoration: none;
 }
